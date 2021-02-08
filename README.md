@@ -29,4 +29,4 @@ Nota atribuída a média do [Dividend Yield](https://pt.wikipedia.org/wiki/Divid
 Calculada pela relação entre o número de cotas do fundo e o número de cotistas.
 
 ###### Nota Volatilidade
-Nota atribuída pelo cáuclo da [volatilidade](https://pt.wikipedia.org/wiki/Volatilidade_(finan%C3%A7as)) do preço da cota do fundo nos últimos 12 meses.
+Nota atribuída pelo cálculo da [volatilidade](https://pt.wikipedia.org/wiki/Volatilidade_(finan%C3%A7as)) do preço da cota do fundo nos últimos 12 meses.
