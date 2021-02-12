@@ -26,7 +26,7 @@ Nota do Preço / Valor Patrimonial é a razão da soma do preço de todas as cot
 Nota atribuída a média do [Dividend Yield](https://pt.wikipedia.org/wiki/Dividend_yield) distribuído pelo fundo nos últimos 10 meses.
 
 ###### Nota Liquidez
-Calculada pela relação entre o número de cotas do fundo e o número de cotistas.
+Calculada pela relação entre o valor patrimonial do fundo e o número de cotistas.
 
 ###### Nota Volatilidade
 Nota atribuída pelo cálculo da [volatilidade](https://pt.wikipedia.org/wiki/Volatilidade_(finan%C3%A7as)) do preço da cota do fundo nos últimos 12 meses.
