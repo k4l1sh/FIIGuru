@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/Kalish1/FIIGuru/blob/main/LICENSE)
 
-Disponível em [https://fiiguru.netlify.app/](https://fiiguru.netlify.app/) e [https://kalish1.github.io/FIIGuru/](https://kalish1.github.io/FIIGuru/)
+Disponível em [https://fiiguru.netlify.app/](https://fiiguru.netlify.app/)
 
 Um ranqueador de Fundos de Investimento Imobiliário que atribui uma nota para quatro diferentes parâmetros dos FIIs:
 - **P/VP** 
