@@ -14,7 +14,7 @@ const scrapeAll = (...links) => fetch(...links).then(resposta => resposta.text()
 	if(HTML_FII.querySelector("#finished-fund") == null) {
 		const ticker = HTML_FII.querySelector("#fund-ticker").innerText;
 		const linksCot = links.slice().map(link => "https://fiis.com.br/"+ticker.replace(/[0-9]+\w*/, '').replace(/\s/g,'').toLowerCase()+"/cotacoes/?periodo=12+months");
-		const VPC = parseFloat(HTML_FII.querySelectorAll("#informations--indexes > div > .value")[3].innerText.split("$")[1].replace(/\./g,"").replace(",","."));
+		const VPC = parseFloat(HTML_FII.querySelectorAll("#informations--indexes > td > .value")[3].innerText.split("$")[1].replace(/\./g,"").replace(",","."));
 		const PC = parseFloat(HTML_FII.querySelector(".quotation >.value").innerText.replace(/\./g,"").replace(",","."));
 		const NC = parseInt(HTML_FII.querySelectorAll("#informations--basic > div > div > .value")[4].innerText.replace(/\./g,""));
 		const NCT = parseInt(HTML_FII.querySelectorAll("#informations--basic > div > div > .value")[5].innerText.replace(/\./g,""));
@@ -104,6 +104,7 @@ fetch("https://fiis.com.br/lista-de-fundos-imobiliarios/").then(resposta => resp
 		ranking.CCT = fundos.slice().sort((a,b) => a.CCT-b.CCT);
 		ranking.VOL = fundos.slice().sort((a,b) => a.VOL-b.VOL);
 		atualizarRange("PVP", "CCT", "VOL", "DYM");
+		console.log(links);
 		document.getElementById("carregando").style.display = "none";
 	});
 });
